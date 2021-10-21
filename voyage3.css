@@ -1,0 +1,181 @@
+.page {
+    width: 100%;
+    text-align: center;
+    margin:auto;
+    font-size: 20px;
+}
+
+.intro {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    font-weight: bold;
+    width: 100%;
+}
+
+.intro p {
+    padding: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.intro img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+.présentation{
+    color:white;
+    font-weight: bold;
+    background-image: url("https://zupimages.net/up/21/42/40wu.tiff");
+    font-size: 20px;
+    text-align: center;
+    border: thick double #052a5c;
+    border-radius: 30px 25% 10%;
+    width: 70%;
+    padding: 30px;
+    margin:auto;
+    margin-top: 50px;
+}
+
+.premier-lieu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.premier-lieu-texte{
+    font-size: 17px;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.premier-lieu-photos{
+    text-align: right;
+    margin-right: 20px;
+    height: 80%;
+    width: 80%;
+    animation-duration: 3s;
+    animation-name: anim;
+    animation-iteration-count: 3s;
+}
+@keyframes anim {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.deuxième-lieu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.deuxième-lieu-texte{
+    font-size: 17px;
+    text-align: center;
+    height: 15%;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.deuxième-lieu-photos{
+    text-align: left;
+    margin-left: 20px;
+    height: 80%;
+    width: 80%;
+    animation-duration: 3s;
+    animation-name: anim;
+    animation-iteration-count: 3s;
+}
+
+.troisième-lieu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.troisième-lieu-texte{
+    font-size: 17px;
+    text-align: center;
+    height: 40%;
+    width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.troisième-lieu-photos{
+    text-align: right;
+    margin-right: 20px;
+    height: 80%;
+    width: 80%;
+    animation-duration: 3s;
+    animation-name: anim;
+    animation-iteration-count: 3s;
+}
+
+.quatrième-lieu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.quatrième-lieu-texte{
+    font-size: 17px;
+    text-align: center;
+    height: 15%;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.quatrième-lieu-photos{
+    text-align: left;
+    margin-left: 20px;
+    height: 80%;
+    width: 80%;
+    animation-duration: 3s;
+    animation-name: anim;
+    animation-iteration-count: 3s;
+}
+
+.cinquième-lieu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cinquième-lieu-texte{
+    font-size: 17px;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cinquième-lieu-photos{
+    text-align: right;
+    margin-right: 20px;
+    height: 80%;
+    width: 80%;
+    animation-duration: 3s;
+    animation-name: anim;
+    animation-iteration-count: 3s;
+}
+
+footer {
+    background-image: url(https://zupimages.net/up/21/42/eg7e.jpg);
+    height: 100%;
+}
+.para1-footer {
+    display: flex;
+    justify-content: space-around;
+}

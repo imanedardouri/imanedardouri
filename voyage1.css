@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    opacity: 1;
+}
+main{
+    background-image: url(https://zupimages.net/up/21/42/eg7e.jpg);
+    background-size:cover;
+}
+
+.header{
+   background-image: url("https://zupimages.net/up/21/42/3q8e.jpg");
+   height: 700px;
+   background-size: cover;
+
+}
+.photos1{
+    width: 100%;
+    height: 200px;
+}
+.h1{
+    text-align: center;
+    color: #c3448c;
+    padding: 30px;
+    font-family:'poppins', serif ;
+    font-size: 20px;
+
+    
+}
+.h2{
+    text-align: center;
+    font-family:'poppins', serif ;
+    font-size: 20px;
+    color:#c3448c;
+    margin-bottom: 1px;
+}
+.para {
+    margin-top:1px ;
+    text-align: center;
+    font-size: 14px;
+    font-family:'poppins', serif ;
+    font-style:italic ;
+    
+}
+.para-1{
+    display: flex;
+    flex-direction: column;
+}
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top:50px ;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 200px; 
+    font-family: 'poppins',serif; 
+    font-style:italic ;
+}
+strong {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #c3448c;
+    text-align: center;
+}
+
+ul {
+    margin-top: 20px;
+}
+li:hover{
+   color: #c3448c;
+}
+.photos-2{
+    text-align: center;
+}
+.sec-para-1{
+    text-align: left;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top:50px ;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 200px; 
+    font-family: 'poppins',serif; 
+    font-style:italic ;
+}
+.sec-photos-2{
+    text-align: center;
+}
+.section-photos{
+    display: flex;
+    justify-content: space-around;
+}
+.sec-photos-3{
+    display: flex;
+    justify-content: space-around;
+}
+.sec-para-2{
+    text-align: left;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top:50px ;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 200px; 
+    font-family: 'poppins',serif; 
+    font-style:italic ;
+}
+.photos-geo{
+    display: flex;
+    justify-content: space-around;
+}
+.section-photos-2{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section-photos-3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.conclusion{
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: left;
+    font-family: 'poppins',serif; 
+    font-style:italic ;
+}
+
+
+
+
